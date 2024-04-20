@@ -40,25 +40,27 @@ Vou detalhar as Funcionalidades da Ferramenta:
 **Obs: Antes de instalar e executar o sistema, verifique se as portas 3000, 3001 e 3002 estão desocupadas.**</br>
 sujestão: ``lsof -i :3000,3001,3002`` ``killall node ou o PID``
 
-
 - 1° Faça o clone do projeto ``git clone git@github.com:Gusvioli/processo-seletivo-shopper.git``
 - 2° Renomeie o arquivo ``processo-seletivo-shopper/app/backend/.env-exemplo`` para ``.env``:
 - 3° Abra o terminal de comando dentro do diretório PROCESSO-SELETIVO-SHOPPER rode o comando:
 
 ### Execução e instalação das dependências do Front-end(node_modules e Banco de dados)</br>  
+
 ``npm run start``
 
-Utilize o link: http://127.0.0.1:3001 para acessar o Back-end
+Utilize o link: <http://127.0.0.1:3001> para acessar o Back-end
   
 - 4° Abra um novo terminal de comando dentro do diretório processo-seletivo-shopper/app/frontend(Abrir terminal integrado) rode os comandos abaixo:
 
 ### Instalar as dependências(node_modules)</br>
+
 ``npm install``
 
 ### Rodar o sistema do Frone-end</br>
+
 ``npm run dev``
 
-Utilize o link: http://127.0.0.1:3000 para acessar o Front-end e utilizar a ferramenta
+Utilize o link: <http://127.0.0.1:3000> para acessar o Front-end e utilizar a ferramenta
 
 ## Imagens da execução do projeto
 
