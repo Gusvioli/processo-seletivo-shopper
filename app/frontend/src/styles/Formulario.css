@@ -1,0 +1,123 @@
+.section-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.arquivo-precificacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+    border: 1px solid rgba(235, 230, 225, 0.568);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.saida-invisivel {
+    display: none;
+}
+
+.saida-visivel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgba(235, 230, 225, 0.568);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(235, 230, 225, 0.568);
+}
+
+.explicar-1 {
+    font-size: small;
+    color: rgba(235, 230, 225, 0.568);
+}
+
+.arquivo-csv-invalido {
+    color: red;
+    font-size: small;
+}
+
+.arquivo-csv-valido {
+    color: green;
+    font-size: small;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #4b4a4a;
+}
+
+thead th {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    padding: 8px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #e2dfdf;
+    color: #000000;
+}
+
+tbody tr {
+    background-color: #ffffff;
+}
+
+tbody tr:hover {
+    background-color: #16ca70;
+}
+
+.status {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    border: 1px solid #ffffff00;
+}
+
+.status-green {
+    background-color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+    width: 10px;
+    height: 10px;
+}
+
+.status-red {
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    width: 10px;
+    height: 10px;
+}
+
+.msg-final {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgba(235, 230, 225, 0.568);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(8, 194, 54, 0.568);
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "rootDir": "./src",
+    "baseUrl": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "paths": {
+      "*": [
+        "node_modules_/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"  ],
+  "exclude": [
+    "node_modules",
+  ]
+}
