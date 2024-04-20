@@ -39,10 +39,19 @@ Vou detalhar as funcionalidades da ferramenta:
 
 **Obs: Antes de instalar e executar o sistema, verifique se as portas 3000, 3001 e 3002 estão desocupadas.**
 
-- 1° Abra o terminal de comando dentro do diretório PROCESSO-SELETIVO-SHOPPER rode o comando: ``npm run start``
-- 2° Abra um novo terminal de comando dentro do dentro do diretório frontend(Abrir terminal integrado) rode o comandp ``npm run dev``
+- 1° Abra o terminal de comando dentro do diretório PROCESSO-SELETIVO-SHOPPER rode o comando: 
+  
+``npm run start``
 
-## Imagens da execução doprojeto
+Utilize o link: http://127.0.0.1:3001 para acessar o Back-end
+  
+- 2° Abra um novo terminal de comando dentro do diretório frontend(Abrir terminal integrado) rode o comando
+  
+``npm run dev``
+
+Utilize o link: http://127.0.0.1:3000 para acessar o Front-end e utilizar a ferramenta
+
+## Imagens da execução do projeto
 
 ![Tela principal](print-screens/Captura%20de%20tela%20de%202024-04-20%2010-10-02.png)
 ![Tela erro no csv](print-screens/Captura%20de%20tela%20de%202024-04-20%2010-13-03.png)
@@ -53,4 +62,8 @@ Vou detalhar as funcionalidades da ferramenta:
 
 ## Considerações Finais
 
-Espero que este esboço seja útil para entender a complexidade e os requisitos da ferramenta. Fico à disposição para discutir qualquer aspecto adicional que possa surgir durante o desenvolvimento.
+Espero que este guia seja útil para compreender a estrutura, funcionalidades e processo de instalação da Ferramenta de Atualização de Preços. Se surgirem dúvidas ou necessidades adicionais durante o desenvolvimento ou uso da ferramenta, estou à disposição para discutir e auxiliar no que for necessário.
+
+Agradeço novamente pela oportunidade e confiança em meu trabalho. Estou ansioso para colaborar e tornar a experiência com a ferramenta tão eficiente e satisfatória quanto possível.
+
+Atenciosamente, Gustavo Vieira.
