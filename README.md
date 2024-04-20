@@ -13,7 +13,7 @@ A estrutura do sistema será a seguinte:
 - Linguagem preferencial: TypeScript.
 - Banco de dados MySQL (versão 8) para armazenar informações sobre produtos, pacotes e preços, utilize o docker para subir o conteiner do Mysql(O Back-end é responsavel por criar a database, tabelas e popular o banco de dados).
 
-### Variáveis de ambientes:
+### Variáveis de ambientes
 
 Variável  | Valor
 --------- | ------
@@ -39,8 +39,8 @@ Vou detalhar as funcionalidades da ferramenta:
 
 **Obs: Antes de instalar e executar o sistema, verifique se as portas 3000, 3001 e 3002 estão desocupadas.**
 
-- 1° Dentro do diretório PROCESSO-SELETIVO-SHOPPER rode o comando: ``npm run start``
-- 2° Dentro do diretório frontend rode o comandp ``npm run dev``
+- 1° Abra o terminal de comando dentro do diretório PROCESSO-SELETIVO-SHOPPER rode o comando: ``npm run start``
+- 2° Abra um novo terminal de comando dentro do dentro do diretório frontend(Abrir terminal integrado) rode o comandp ``npm run dev``
 
 ## Imagens da execução doprojeto
 
