@@ -39,8 +39,9 @@ Vou detalhar as funcionalidades da ferramenta:
 
 **Obs: Antes de instalar e executar o sistema, verifique se as portas 3000, 3001 e 3002 estão desocupadas.**
 
-- 1° renomeie o arquivo ``.env-exemplo`` para ``.env``:
-- 2° Abra o terminal de comando dentro do diretório PROCESSO-SELETIVO-SHOPPER rode o comando:
+- 2° Faça o clone do projeto ``git@github.com:Gusvioli/processo-seletivo-shopper.git``
+- 2° Renomeie o arquivo ``.env-exemplo`` para ``.env``:
+- 3° Abra o terminal de comando dentro do diretório PROCESSO-SELETIVO-SHOPPER rode o comando:
 
 ### Execução e instalação das dependências do Front-end(node_modules e Banco de dados)
   
@@ -48,7 +49,7 @@ Vou detalhar as funcionalidades da ferramenta:
 
 Utilize o link: http://127.0.0.1:3001 para acessar o Back-end
   
-- 3° Abra um novo terminal de comando dentro do diretório app/frontend(Abrir terminal integrado) rode os comandos abaixo:
+- 4° Abra um novo terminal de comando dentro do diretório app/frontend(Abrir terminal integrado) rode os comandos abaixo:
 
 ### Instalar as dependências(node_modules)
 
