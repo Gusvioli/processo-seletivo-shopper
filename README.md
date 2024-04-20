@@ -39,14 +39,23 @@ Vou detalhar as funcionalidades da ferramenta:
 
 **Obs: Antes de instalar e executar o sistema, verifique se as portas 3000, 3001 e 3002 estão desocupadas.**
 
-- 1° Abra o terminal de comando dentro do diretório PROCESSO-SELETIVO-SHOPPER rode o comando: 
+- 1° renomeie o arquivo ``.env-exemplo`` para ``.env``:
+- 2° Abra o terminal de comando dentro do diretório PROCESSO-SELETIVO-SHOPPER rode o comando:
+
+### Execução e instalação das dependências do Front-end(node_modules e Banco de dados)
   
 ``npm run start``
 
 Utilize o link: http://127.0.0.1:3001 para acessar o Back-end
   
-- 2° Abra um novo terminal de comando dentro do diretório app/frontend(Abrir terminal integrado) rode o comando
-  
+- 3° Abra um novo terminal de comando dentro do diretório app/frontend(Abrir terminal integrado) rode os comandos abaixo:
+
+### Instalar as dependências(node_modules)
+
+``npm install``
+
+### Rodar o sistema do Frone-end
+
 ``npm run dev``
 
 Utilize o link: http://127.0.0.1:3000 para acessar o Front-end e utilizar a ferramenta
