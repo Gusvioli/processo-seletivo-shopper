@@ -45,7 +45,7 @@ Vou detalhar as funcionalidades da ferramenta:
 
 Utilize o link: http://127.0.0.1:3001 para acessar o Back-end
   
-- 2° Abra um novo terminal de comando dentro do diretório frontend(Abrir terminal integrado) rode o comando
+- 2° Abra um novo terminal de comando dentro do diretório app/frontend(Abrir terminal integrado) rode o comando
   
 ``npm run dev``
 
