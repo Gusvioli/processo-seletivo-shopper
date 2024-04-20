@@ -44,7 +44,12 @@ Sujestão: ``lsof -i :3000,3001,3002`` ``killall node ou o PID``
 - 2° Renomeie o arquivo ``processo-seletivo-shopper/app/backend/.env-exemplo`` para ``.env``;
 - 3° Abra o terminal de comando dentro do diretório *PROCESSO-SELETIVO-SHOPPER* rode o comando abaixo;
 
+<details>
+<summary>Imagem: Deretório - PROCESSO-SELETIVO-SHOPPER</summary>
+
 ![Abertura pelo terminal integrado](print-screens/Captura%20de%20tela%20de%202024-04-20%2014-43-41.png)
+
+</details>
 
 ### Execução e instalação das dependências do Front-end(node_modules e Banco de dados)</br>  
 
@@ -54,7 +59,12 @@ Utilize o link: <http://127.0.0.1:3001> para acessar o Back-end
   
 - 4° Abra um novo terminal de comando dentro do diretório *processo-seletivo-shopper/app/frontend*(Abrir terminal integrado) rode os comandos abaixo;
 
+<details>
+<summary>Imagem: Deretório - processo-seletivo-shopper/app/frontend</summary>
+
 ![Abertura pelo terminal integrado](print-screens/Captura%20de%20tela%20de%202024-04-20%2014-44-10.png)
+
+</details>
 
 ### Instalar as dependências(node_modules)</br>
 
