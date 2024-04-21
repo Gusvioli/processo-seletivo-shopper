@@ -1,6 +1,0 @@
-export default {
-  'config': path.resolve(__dirname,'dist', 'models', 'config', 'database.js'),
-  'models-path': path.resolve(__dirname,'dist','models'),
-  'seeders-path': path.resolve(__dirname,'src','models', 'seeders'),
-  'migrations-path': path.resolve(__dirname,'src','models', 'migrations'),
-};
