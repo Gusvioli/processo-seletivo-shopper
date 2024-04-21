@@ -38,7 +38,7 @@ Vou detalhar as Funcionalidades da Ferramenta:
 ## Instalação e execução do sistema
 
 **Obs: Antes de instalar e executar o sistema, verifique se as portas 3000, 3001 e 3002 estão desocupadas.**</br>
-Sujestão: ``lsof -i :3000,3001,3002`` ``killall node ou o PID``
+Sujestão: ``lsof -i :3000,3001,3002`` ``killall node`` ou ``kill PID``
 
 - 1° Faça o clone do projeto ``git clone git@github.com:Gusvioli/processo-seletivo-shopper.git``;
 - 2° Renomeie o arquivo ``processo-seletivo-shopper/app/backend/.env-exemplo`` para ``.env``;
