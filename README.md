@@ -8,7 +8,7 @@ Olá, Shopper(a)! Agradeço pela oportunidade. Neste readme, delinearei as etapa
 
 A estrutura do sistema será a seguinte:
 
-- Back-end em Node.js, Express, JOI, Mysql2 e dotenv para aplicar as regras e lógica de negócio e utilização do sistema.
+- Back-end em Node.js, Express, Mysql2 e dotenv para aplicar as regras e lógica de negócio e utilização do sistema.
 - Front-end em React.js(Vite.js) e Axios para a interface do usuário interagir com a ferramenta e funcionamento do sistema com ligação ao Back-end.
 - Linguagem preferencial: TypeScript.
 - Banco de dados MySQL (versão 8.0) para armazenar informações sobre produtos, pacotes e preços, utilize o docker para subir o conteiner do Mysql(O Back-end é responsavel por criar a database, tabelas e popular o banco de dados).
